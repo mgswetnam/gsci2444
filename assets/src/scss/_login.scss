@@ -1,0 +1,33 @@
+body{
+  &.login{
+    /*background: url('../images/powered-by-cs-blk-rvs-20190911.png') bottom right no-repeat;*/
+    background: $blue;
+    background: -moz-linear-gradient(top,  $blue 0%, $blue_hi 100%);
+    background: -webkit-linear-gradient(top,  $blue 0%, $blue_hi 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top,  $blue 0%, $blue_hi 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    h1{
+      a{
+        background-image: url('../images/logo.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 222px 100px;
+        height:100px;
+        width:222px;
+      }
+    }
+    p{
+      &#nav,&#backtoblog{
+        color:$white;
+        a{
+          color:$white;
+        }
+      }
+    }
+    .privacy-policy-page-link{
+      color:$white;
+      a{
+        color:$white;
+      }
+    }
+  }
+}
