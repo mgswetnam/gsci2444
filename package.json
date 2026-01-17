@@ -36,7 +36,7 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-load-plugins": "^2.0.2",
     "gulp-modernizr": "^3.4.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-sourcemaps-support": "0.0.1",
     "gulp-uglify": "^3.0.2",
